@@ -1,0 +1,22 @@
+{
+  "version": "2020.1",
+  "applications": [],
+  "platforms": [],
+  "systems": [
+    {
+      "name": "DevFASI_system",
+      "platform": "/opt/xilinx/platforms/xilinx_u200_xdma_201830_2/xilinx_u200_xdma_201830_2.xpfm",
+      "sysConfig": "config0_0",
+      "applications": [
+        {
+          "name": "DevFASI",
+          "platform": "/opt/xilinx/platforms/xilinx_u200_xdma_201830_2/xilinx_u200_xdma_201830_2.xpfm",
+          "sysConfig": "config0_0",
+          "domain": "x86",
+          "system": "DevFASI_system"
+        }
+      ]
+    }
+  ],
+  "others": []
+}

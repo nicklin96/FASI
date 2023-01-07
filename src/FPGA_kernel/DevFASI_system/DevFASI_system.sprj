@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:systemproject="http://www.xilinx.com/systemproject" name="DevFASI_system" platform="/opt/xilinx/platforms/xilinx_u200_xdma_201830_2/xilinx_u200_xdma_201830_2.xpfm" platformUID="xilinx:u200:xdma:201830.2" sysConfig="config0_0" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Emulation-SW">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="DevFASI" domainName="x86" domainPrettyName="x86" appBuildConfig="Emulation-SW"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw_emu">
+      <applications name="DevFASI" domainName="x86" domainPrettyName="x86" appBuildConfig="Emulation-HW"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Hardware">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw">
+      <applications name="DevFASI" domainName="x86" domainPrettyName="x86" appBuildConfig="Hardware"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>
